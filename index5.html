@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Design</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style5.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+
+	<!--1st section-->
+
+
+    <div class="section-padding">
+      <div class="container">
+        <div class="row">
+        	<div class="header">
+        	<div class="col-md-3">
+        		<div class="logoo">
+        		<img src="images/logo.jpg" alt="">
+          </div>
+          </div>
+               <div class="col-md-5">
+               	  <div class="input-group">
+					    <span class="input-group-btn">
+					     <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+					    </span>
+					    <input type="text" class="form-control" placeholder="panthera leo">
+					</div>
+				  </div>
+                      
+
+                   
+				   <div class="col-md-4 pd-0">
+				   	<div class="icons"> 
+                    <button type="button">
+                      <span class="badge badge-light">4</span> sithiroyprianka@gmail.com
+                    </button>
+                      <i class="glyphicon glyphicon-triangle-bottom"></i>
+                     <span class="glyphicon glyphicon-th"></span>
+                     <!-- <img src="images/logo2.png" alt="" width="50px" height="30px"> -->
+                     <i class="fa fa-google-plus google-icon" aria-hidden="true"></i>
+                   </div>
+
+               </div>
+            </div>
+          </div>
+              
+            <!--2nd section-->
+
+
+            <div class="another-section">
+              <div class="row">
+                 <div class="col-md-3 side-panel">
+                    <p class="main">Types</p>
+                    <ul class="list-items">
+                    	<li class="active"><i class="fa fa-cogs" aria-hidden="true"></i>
+                          <span>Custom</span></li>
+                        <li><i class="fa fa-window-maximize" aria-hidden="true"></i>
+                         <span>Web</span></li>
+                        <li><i class="fa fa-picture-o" aria-hidden="true"></i>
+                         <span>Images</span></li>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i>
+                         <span>Maps</span></li>
+                        <li><i class="fa fa-video-camera" aria-hidden="true"></i>
+                         <span>Videos</span></li>
+                        <li><i class="fa fa-info" aria-hidden="true"></i>
+                        <span>More</span></li>
+                         <br>
+                     
+                      <p class="main">Filter</p>
+                        <li class="active"><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        <span>Nearby</span></li>
+                        <li class="active"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                         <span>Last month</span></li>
+                        <li><i class="fa fa-filter" aria-hidden="true"></i>
+                        <span>All results</span></li>
+                        <li><i class="fa fa-language" aria-hidden="true"></i>
+                        <span>All languages</span></li>
+                    </ul>
+                  </div>
+
+                  <div class="middle-section">
+                  <div class="col-md-5">
+                  	<h2 class="web">Web</h2><hr>
+                  	  <h4 class="leo">Panthera leo - Wikipedia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum impedit necessitatibus, reiciendis id in reprehenderit architecto, sequi deserunt aspernatur. Atque facilis eos consectetur tempora veritatis, officia et, illo minima, quos hic a rerum, sunt molestias excepturi corrupti voluptatem</p>
+              	<br>
+                     
+                       <h4 class="leo">Lion - Wikipedia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum impedit necessitatibus, reiciendis id in reprehenderit architec</p>
+              
+				<br>
+                         <h4 class="leo">Panthera leo - african lion</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum impedit necessitatibus, reiciendis id in reprehenderit architecto, sequi deserunt aspernatur. Atque facilis eos consectetur tempora veritatis, officia et, illo minima, quos hic a rerum</p>
+                        <br>
+              
+                         <h4 class="leo">Panthera leo - the free dictionary</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum impedit necessitatibus, reiciendis id in reprehenderit architecto, sequi deserunt aspernatur</p>              
+                  	</div>
+                  </div>
+
+                         
+                        <div class="image-section">
+                        <div class="col-md-4">
+                          <h2 class="">Images</h2><hr>
+                        	<img src="images/lion.jpg" alt="" class="img-responsive">
+
+                            <h2 class="maps">Maps</h2><hr>
+                             <div id="map" style="width:400px;height:200px;background:yellow" class="img-responsive">
+                             </div>
+
+                        </div>
+                       </div>
+                      </div>
+               </div>
+            </div>
+        </div>
+         
+           
+         <script>
+         	 function myMap(){
+         	 	var mapCanvas =document.getElementById("map");
+         	 	var mapOptions ={
+         	 		center: new google.maps.LatLng(23.7104,90.40744), zoom: 10
+         	 	};
+         	 	var map = new google.maps.Map(mapCanvas, mapOptions);
+         	 }
+
+         </script>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1lPEev3wzDGmLYZLUq82ZnoVT_Lw2t98&callback=myMap"></script>
+</body>
+</html>
