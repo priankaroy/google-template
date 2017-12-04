@@ -1,0 +1,116 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body, html {
+  height: 100%;
+}
+
+.section-padding{
+	width:100%;
+	height:80%;
+	margin:20px auto;
+	display:inline-block;
+
+}
+.side-panel{
+	background-color: #292F32;
+	color: #fff;
+	width: 262px;
+	margin-left: 15px;
+	padding: 10px 30px;
+}
+.side-panel ul li{
+	padding: 10px 0px;
+	color: #737E87;
+}
+.side-panel ul li span{
+	margin-left: 5px;
+}
+.side-panel ul li i{
+	margin-right: 5px;
+}
+.active{
+	color: #fff !important;
+}
+.header{
+	padding-top:20px;
+}
+
+.logoo{
+     margin: -70px 0 0 0; 
+}
+.logoo img{
+     width: 100%; 
+}
+.input-group-btn button, input[type="text"]{
+	border: none !important;
+	border-radius: 0 !important;
+	outline: 0 none !important;
+	box-shadow:none !important;
+	border-color: transparent !important;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: transparent;
+  box-shadow: 0 1px 1px transparent;
+  outline: 0 none;
+}
+.badge {
+    padding: 4px 10px;
+    background-color: #DA4936;
+    border-radius: 0px;
+}
+.google-icon {
+    background-color: #DA4936;
+    color: #fff;
+    padding: 12px 10px !important;
+}
+.logoo{
+	border-bottom: 5px solid;
+    border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+}
+     
+.pd-0{
+	padding: 0;
+}
+
+.icons button{
+	margin-right: 20px;
+}
+
+.icons button span{
+	margin-left: 10px;
+}
+
+.icons i{
+	margin-right: 10px;
+}
+.icons span{
+	margin-right: 10px;
+}
+
+.main{
+	padding-top:40px;
+	line-height:20px;
+	opacity: .4;
+	font-size:17px;
+}
+.list-items{
+	list-style:none;
+}
